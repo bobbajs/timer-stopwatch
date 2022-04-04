@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="app">
+        <div class="stopwatch">
+            <span>Stopwatch</span>
+            <div class="time-display" id="timeDisplay"></div>
+
+            <div class="action-area">
+                <button id="start">START</button>
+                <button id="stop" class="hidden">STOP</button>
+                <button id="reset">RESET</button>
+            </div>
+        </div>
+        <div class="timer">
+            <span>Timer</span>
+
+            <div class="time-display" id="timeDisplayTimer"></div>
+            <button id="setTime">SET TIME</button>
+            <button id="startTimer">START</button>
+            <button id="stopTimer" class="hidden">STOP</button>
+            <button id="resetTimer">RESET</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
